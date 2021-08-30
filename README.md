@@ -40,9 +40,9 @@ For logging, this SDK uses the [log4js API](https://www.npmjs.com/package/log4js
 Upon running, the SDK searches for a file ```config/pdfservices-sdk-log4js-config.json``` in the working directory, and reads the
 logging properties from there. If no configuration file is provided, default logging, i.e. logging INFO logs to the console is enabled. The clients can change the logging settings as per their needs.
 
-## Build with npm
+## convert docx to pdf(only convert to docx to pdf working on other part)
 
-run file convert.js using nodejs
+run file convert.js using nodejs(only convert to docx to pdf working on other part)
 node convert.js
 In convert.js have method call readDir pass the source and destination directory name
 By default src directory is input and destination directory is output 
