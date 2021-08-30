@@ -42,6 +42,10 @@ logging properties from there. If no configuration file is provided, default log
 
 ## convert docx to pdf(only convert to docx to pdf working on other part)
 
+```$xslt
+node convert.js
+```
+
 run file convert.js using nodejs(only convert to docx to pdf working on other part)
 node convert.js
 In convert.js have method call readDir pass the source and destination directory name
